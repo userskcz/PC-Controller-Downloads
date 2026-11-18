@@ -1,31 +1,31 @@
-name: Bug report / Повідомити про помилку
+name: Bug report
 description: Report an issue with PC Server or its connection to the watch.
 title: "[Bug] "
 body:
   - type: markdown
     attributes:
-      value: "Please do not post API keys, passwords, tokens or private files. Не публікуйте ключі, паролі, токени чи приватні файли."
+      value: "Please do not post API keys, passwords, tokens or private files."
   - type: input
     id: server-version
     attributes:
-      label: PC Server version / Версія сервера
+      label: PC Server version
     validations:
       required: true
   - type: input
     id: watch
     attributes:
-      label: Watch model and Wear OS / Модель годинника та Wear OS
+      label: Watch model and Wear OS
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
-      label: Steps to reproduce / Кроки відтворення
+      label: Steps to reproduce
       description: What did you do, what happened, and what did you expect?
     validations:
       required: true
   - type: textarea
     id: details
     attributes:
-      label: Additional details / Додаткова інформація
+      label: Additional details
       description: Windows version and relevant logs with secrets removed.
