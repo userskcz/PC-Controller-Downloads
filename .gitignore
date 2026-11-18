@@ -1,0 +1,15 @@
+# Installers belong in Release assets, not Git history.
+*.exe
+*.zip
+*.7z
+*.msi
+*.msix
+*.apk
+*.aab
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
